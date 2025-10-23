@@ -136,3 +136,9 @@ Thumbs.db
 # Backup files
 *.bak
 *.backup
+
+# Build e distribuição
+build/
+dist/
+releases/
+*.spec

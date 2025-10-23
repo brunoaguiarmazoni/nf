@@ -39,49 +39,20 @@ pip install -r requirements.txt
 ### 3. Verifique se o Chrome está instalado
 O sistema utiliza o Chrome WebDriver. Certifique-se de ter o Google Chrome instalado no sistema.
 
-## 📖 Como Usar
+## � Como Executar
 
-### 1. Prepare sua planilha Excel
+### 🐧 Linux
+1. **Instalação rápida:** `./install.sh`
+2. **Teste do sistema:** `python test_system.py`
+3. **Executar aplicação:** `python main.py`
+4. **Criar exemplo:** `python create_example.py`
+5. **Gerar executável:** `./build_executable.sh`
 
-Crie uma planilha Excel com as seguintes colunas:
-- `CHAVE_NF` - Chaves das notas fiscais (obrigatório)
-- `STATUS_VALIDACAO` - Status da validação (será preenchido automaticamente)
-- `DATA_VALIDACAO` - Data da validação (será preenchido automaticamente)
-- `DETALHES_ERRO` - Detalhes de erros (será preenchido automaticamente)
-
-**Exemplo de estrutura:**
-
-| CHAVE_NF | NUMERO_NF | EMPRESA | STATUS_VALIDACAO | DATA_VALIDACAO | DETALHES_ERRO |
-|----------|-----------|---------|------------------|----------------|---------------|
-| 35240123456789012345678901234567890123456789 | 001 | Empresa A | | | |
-| 35240223456789012345678901234567890123456789 | 002 | Empresa B | | | |
-
-### 2. Execute a aplicação
-
-```bash
-python main.py
-```
-
-### 3. Use a interface gráfica
-
-1. **Selecione o arquivo Excel** com as chaves
-2. **Escolha o tipo de validação:**
-   - NF-e (Receita Federal)
-   - NFS-e (Prefeituras)
-3. **Para NFS-e, selecione a cidade:**
-   - São Paulo
-   - Rio de Janeiro  
-   - Belo Horizonte
-   - Brasília
-4. **Configure as opções:**
-   - Modo headless (navegador oculto)
-5. **Clique em "Iniciar Validação"**
-
-### 4. Acompanhe o progresso
-
-- A barra de progresso mostra o andamento
-- O log exibe informações detalhadas
-- O arquivo Excel é atualizado automaticamente
+### 🪟 Windows
+1. **Instalar dependências:** `pip install -r requirements.txt`
+2. **Gerar executável:** `build_executable_windows.bat`
+3. **Criar release:** `create_release_windows.bat`
+4. **Instruções detalhadas:** Ver `INSTRUÇÕES_WINDOWS.md`
 
 ## 📋 Status de Validação
 
