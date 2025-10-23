@@ -49,10 +49,22 @@ O sistema utiliza o Chrome WebDriver. Certifique-se de ter o Google Chrome insta
 5. **Gerar executável:** `./build_executable.sh`
 
 ### 🪟 Windows
-1. **Instalar dependências:** `pip install -r requirements.txt`
-2. **Gerar executável:** `build_executable_windows.bat`
-3. **Criar release:** `create_release_windows.bat`
-4. **Instruções detalhadas:** Ver `INSTRUÇÕES_WINDOWS.md`
+
+#### ⚡ SEM Python instalado (Automático):
+```batch
+SETUP_WINDOWS_COMPLETO.bat  # Instala Python + gera executável
+```
+
+#### ⚡ COM Python instalado:
+```batch
+pip install -r requirements.txt
+build_executable_windows.bat
+create_release_windows.bat
+```
+
+#### 📖 Documentação:
+- **Para usuários sem Python:** `GUIA_SEM_PYTHON.md`
+- **Instruções detalhadas:** `INSTRUÇÕES_WINDOWS.md`
 
 ## 📋 Status de Validação
 

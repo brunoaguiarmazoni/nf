@@ -1,8 +1,18 @@
 # 🎯 INSTRUÇÕES RÁPIDAS: Executável Windows
 
-## Como Gerar o Executável
+## 🚀 SETUP AUTOMÁTICO (Recomendado)
 
-### No Windows:
+### ⚡ Para usuários SEM Python instalado:
+```batch
+# 1. Baixar o projeto (ZIP ou Git)
+# Baixar ZIP: https://github.com/seu-usuario/validador-nfe-nfse/archive/main.zip
+# Ou com Git: git clone https://github.com/seu-usuario/validador-nfe-nfse.git
+
+# 2. Executar setup completo (AUTOMÁTICO!)
+SETUP_WINDOWS_COMPLETO.bat
+```
+
+### ⚡ Para usuários COM Python instalado:
 ```batch
 # 1. Baixar o projeto
 git clone https://github.com/seu-usuario/validador-nfe-nfse.git
